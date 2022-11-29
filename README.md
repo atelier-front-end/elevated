@@ -1,2 +1,2 @@
 # cheesecake-bites
-extra caramel
+extra caramel, extra delicious
