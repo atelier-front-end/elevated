@@ -4,7 +4,7 @@ import ProductBrk from './ProductBrk.jsx';
 import styled from 'styled-components';
 import axios from "axios";
 
-const Breakdown = ({ productID, ratingsArray, setCharBreak, starFilter }) => {
+const Breakdown = ({ productID, ratingsArray, setCharBreak, starFilter, setStarFilter }) => {
   const [breakdown, setBreakdown] = useState({});
 
   useEffect(() => {
@@ -28,7 +28,7 @@ const Breakdown = ({ productID, ratingsArray, setCharBreak, starFilter }) => {
 
   return (
     <BreakdownCont>
-      <RatingsBrk breakdown={breakdown} ratingsArray={ratingsArray} starFilter={starFilter}/>
+      <RatingsBrk breakdown={breakdown} ratingsArray={ratingsArray} starFilter={starFilter} setStarFilter={setStarFilter}/>
       <div>
         {Object.keys(breakdown.characteristics).map((char) => {
           return <ProductBrk key={breakdown.characteristics[char].id} char={char} breakdown={breakdown.characteristics} />
