@@ -71,7 +71,7 @@ Simplistic yet modern e-commerce site designed with the user in mind.
 ##### Answers:
 * Utilized browser's localStorage to limit user's reported/helpful response to each Q&A
 * Load more functionality for good UX and user control of page content
-* * Displays meta data of each answer
+* Displays meta data of each answer
 
 ##### Modal & Posting Qs/As:
 * Modal Form to Post Question or Answer to API
