@@ -9,7 +9,7 @@
     "cypress:open": "cypress open",
     "coverage": "jest --env=jsdom --watchAll=false --coverage",
     "build": "webpack --config webpack.config.js -w",
-    "dev": "webpack serve --open"
+    "start": "webpack serve --open"
   },
   "repository": {
     "type": "git",
