@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import StarComponent from '../StarComponent.jsx';
 import styled from 'styled-components';
 
-const RatingsBrk = function RatingsBrk({ breakdown, ratingsArray, starFilter }) {
+const RatingsBrk = function RatingsBrk({ breakdown, ratingsArray, starFilter, setStarFilter }) {
   const [stats, setStats] = useState({});
 
   let dimensions = {
@@ -40,8 +40,19 @@ const RatingsBrk = function RatingsBrk({ breakdown, ratingsArray, starFilter }) 
     return result;
   }
 
-  const clickHandler = function(e, rating) {
+  const clickHandler = function(e, rating, clear) {
     e.preventDefault()
+    if (clear) {
+      setStarFilter({
+        inUse: false,
+        1: false,
+        2: false,
+        3: false,
+        4: false,
+        5: false
+      })
+      return;
+    }
     ratingsArray(rating)
   }
 
@@ -85,6 +96,11 @@ const RatingsBrk = function RatingsBrk({ breakdown, ratingsArray, starFilter }) 
           )
         })}
       </RatingsBarContainer>
+      { starFilter.inUse &&
+        <button onClick={(e) => clickHandler(e, null, 'clear')}>
+          Clear Selection
+        </button>
+      }
     </div>
   )
 }
