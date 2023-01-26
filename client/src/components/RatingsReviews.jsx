@@ -44,10 +44,8 @@ const RatingsReviews = ({theme, product}) => {
     <RRContainer theme={theme}>
       <H2>Ratings & Reviews</H2>
       <RR>
-        <Breakdown productID={product.id} ratingsArray={ratingsArray} setCharBreak={setCharBreak} starFilter={starFilter} setStarFilter={setStarFilter}/>
-        <Reviews productID={product.id} name={product.name} starFilter={starFilter} charBreak={charBreak}/>
         <Breakdown productID={product.id} ratingsArray={ratingsArray} setCharBreak={setCharBreak} starFilter={starFilter}/>
-        <Reviews theme={theme} productID={product.id} name={product.name} starFilter={starFilter} charBreak={charBreak}/>
+        <Reviews theme={theme} productID={product.id} name={product.name} starFilter={starFilter} charBreak={charBreak} setStarFilter={setStarFilter}/>
       </RR>
     </RRContainer>
   )
