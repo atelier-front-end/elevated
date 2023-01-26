@@ -85,6 +85,7 @@ Light Theme             |  Dark Theme
 
 <details>
     <summary>See Q&A Forms</summary>
+    
 ![fec-qa-forms-readme](./client/dist/images/QA.gif)
 
 </details>
