@@ -98,13 +98,14 @@ Light Theme             |  Dark Theme
 - Visual represention of the breakdown of product ratings and characteristics
 - A custom form for adding reviews
 
-![fec-rr-readme](./client/dist/images/rrLight.png)
-![fec-rr-readme](./client/dist/images/rrdark.png)
+Light Theme             |  Dark Theme
+:-------------------------:|:-------------------------:
+<img width="1176" alt="rrlight" src="https://user-images.githubusercontent.com/105510284/214970617-fa46dd2e-bbe7-47f4-b387-047b151dad8c.png">  |  <img width="1178" alt="rrdark" src="https://user-images.githubusercontent.com/105510284/214970522-7c866493-0249-4f67-9608-559e09a3141e.png">
 
 <details>
-    <summary>See R&R Form</summary>
+    <summary>See R&R Demo</summary>
 
-![fec-rr-form-readme](./client/dist/images/QA.png)
+
 
 </details>
 
