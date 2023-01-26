@@ -103,7 +103,7 @@ Light Theme             |  Dark Theme
 <details>
     <summary>See R&R Form</summary>
 
-![fec-rr-form-readme](./client/dist/images/rrmodal.png)
+![fec-rr-form-readme](./client/dist/images/QA.png)
 
 </details>
 
