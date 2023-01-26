@@ -29,17 +29,32 @@ Simplistic yet modern e-commerce site designed with the user in mind.
 
 #### Features
 
-- A carousel displaying related products
-- A modal comparing product features
-- A list of products saved by the user
+### Product Cards:
+* Each product card highlights the product’s default image, category, name, price (and sale price, when applicable), and star ratings.
+* Each product card is clickable, and will update the product page when clicked.
+* Each card and its corresponding action button (in the top right corner) have hover states so the user has immediate feedback on clickability.
 
-![fec-related-products readme](./client/dist/images/rLight.png)
-![fec-related-products readme](./client/dist/images/rDark.png)
+### Related Products Carousel:
+* Shows a scrollable list of related products similar related products to the one the user is currently viewing
+* Each card has a star icon that indicates whether the product has already been added to the user’s ”Your Outfit” section.
+* The user can access a scrollable comparison modal from the product card that allows the user to compare the features of the related product to the currently viewed product. It highlights each product’s feature characteristics if applicable.
+
+### Your Outfits Carousel:
+* Scrollable list of products the user has saved.
+* Users can manage their outfit by adding or deleting products from their favorites via the Add to Outfit or delete buttons.
+* The Add to Outfit card adds the currently viewed product to the “Your Outfit” list.
+* Allows for persistence of list across different sessions, as long as the relevant cookies exist.
+* Maintains a saved list of unique products only.
+
+<img width="1176" alt="rlight" src="https://user-images.githubusercontent.com/37416800/214944738-a343ef15-e5cc-4f4e-99b0-72afd00b0486.png">
+<img width="1178" alt="rdark" src="https://user-images.githubusercontent.com/37416800/214944746-354772f2-a170-4214-8e42-dc402b4b944a.png">
+
 
 <details>
     <summary>See Comparison Details</summary>
 
-![Screen Shot 2022-12-17 at 10 26 06 AM](./client/dist/images/Rmodal.png)
+<img width="1175" alt="rcomparison" src="https://user-images.githubusercontent.com/37416800/214944755-e31d33b3-6662-493d-8cac-7736b0f3cd57.png">
+
 
 </details>
 
