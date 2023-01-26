@@ -5,9 +5,13 @@ Simplistic yet modern e-commerce site designed with the user in mind.
 ## Authors
 
 [Aristotle Jalalianfard](https://github.com/n0kam1)\
+###Overview
 [Evan OShea](https://github.com/evanoshea21)\
+###Questions & Answers
 [Kimberly Cheung](https://github.com/kimberlywycheung)\
+###Related Products
 [Ryan Gehris](https://github.com/RyanGehris)
+###Ratings & Reviews
 
 ## Built With
 
@@ -52,6 +56,8 @@ Simplistic yet modern e-commerce site designed with the user in mind.
 - Allows for persistence of list across different sessions, as long as the relevant cookies exist.
 - Maintains a saved list of unique products only.
 
+<img width="1176" alt="rlight" src="https://user-images.githubusercontent.com/37416800/214944738-a343ef15-e5cc-4f4e-99b0-72afd00b0486.png">
+
 |                                                                 Light Theme                                                                 |                                                                 Dark Theme                                                                 |
 | :-----------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------: |
 | <img width="1176" alt="rlight" src="https://user-images.githubusercontent.com/37416800/214944738-a343ef15-e5cc-4f4e-99b0-72afd00b0486.png"> | <img width="1178" alt="rdark" src="https://user-images.githubusercontent.com/37416800/214944746-354772f2-a170-4214-8e42-dc402b4b944a.png"> |
@@ -84,6 +90,8 @@ Simplistic yet modern e-commerce site designed with the user in mind.
 
 - Modal Form to Post Question or Answer to API
 - Answers accept images, which display in uniform size under each entry upon page load
+
+![fec-qa-readme](./client/dist/images/QALight.png)
 
 |                    Light Theme                     |                    Dark Theme                     |
 | :------------------------------------------------: | :-----------------------------------------------: |
