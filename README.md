@@ -46,8 +46,9 @@ Simplistic yet modern e-commerce site designed with the user in mind.
 * Allows for persistence of list across different sessions, as long as the relevant cookies exist.
 * Maintains a saved list of unique products only.
 
-<img width="1176" alt="rlight" src="https://user-images.githubusercontent.com/37416800/214944738-a343ef15-e5cc-4f4e-99b0-72afd00b0486.png">
-<img width="1178" alt="rdark" src="https://user-images.githubusercontent.com/37416800/214944746-354772f2-a170-4214-8e42-dc402b4b944a.png">
+Light Theme             |  Dark Theme
+:-------------------------:|:-------------------------:
+<img width="1176" alt="rlight" src="https://user-images.githubusercontent.com/37416800/214944738-a343ef15-e5cc-4f4e-99b0-72afd00b0486.png">  |  <img width="1178" alt="rdark" src="https://user-images.githubusercontent.com/37416800/214944746-354772f2-a170-4214-8e42-dc402b4b944a.png">
 
 
 <details>
