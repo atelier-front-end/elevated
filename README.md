@@ -106,7 +106,7 @@ Installation
   ```
       npm install
   ```
-- Copy example.env file and rename to .env with the following within
+- Create a new .env file with the following within
 
   ```
       GITHUB_TOKEN='Insert API token'
