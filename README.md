@@ -58,7 +58,7 @@ Simplistic yet modern e-commerce site designed with the user in mind.
 
 </details>
 
-## Questions & Answers (Author: Evan O'Shea)
+## Questions & Answers
 
 #### Features
 
@@ -78,12 +78,12 @@ Simplistic yet modern e-commerce site designed with the user in mind.
 * Answers accept images, which display in uniform size under each entry upon page load
 
 ![fec-qa-readme](./client/dist/images/QALight.png)
-![fec-qa-readme](./client/dist/images/QAdark.png)
 
 <details>
     <summary>See Q&A Forms</summary>
 
 ![fec-qa-forms-readme](./client/dist/images/QAmodal.png)
+![fec-qa-readme](./client/dist/images/QAdark.png)
 
 </details>
 
