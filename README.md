@@ -22,7 +22,11 @@ Simplistic yet modern e-commerce site designed with the user in mind.
 - Styles selector along with a user-friendly size guide
 
 ![fec-overview-readme](./client/dist/images/OLight.png)
-![fec-overview-readme](./client/dist/images/Odark.png)
+
+|                    Light Theme                     |                    Dark Theme                     |
+| :------------------------------------------------: | :-----------------------------------------------: |
+| ![fec-qa-readme](./client/dist/images/OLight.png) | ![fec-qa-readme](./client/dist/images/Odark.png) |
+
 
 ## Related Products & Your Outfit
 
