@@ -87,8 +87,6 @@ Simplistic yet modern e-commerce site designed with the user in mind.
 - Modal Form to Post Question or Answer to API
 - Answers accept images, which display in uniform size under each entry upon page load
 
-![fec-qa-readme](./client/dist/images/QALight.png)
-
 |                    Light Theme                     |                    Dark Theme                     |
 | :------------------------------------------------: | :-----------------------------------------------: |
 | ![fec-qa-readme](./client/dist/images/QALight.png) | ![fec-qa-readme](./client/dist/images/QAdark.png) |
