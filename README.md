@@ -5,13 +5,9 @@ Simplistic yet modern e-commerce site designed with the user in mind.
 ## Authors
 
 [Aristotle Jalalianfard](https://github.com/n0kam1)\
-###Overview
 [Evan OShea](https://github.com/evanoshea21)\
-###Questions & Answers
 [Kimberly Cheung](https://github.com/kimberlywycheung)\
-###Related Products
 [Ryan Gehris](https://github.com/RyanGehris)
-###Ratings & Reviews
 
 ## Built With
 
