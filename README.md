@@ -84,7 +84,9 @@ Light Theme             |  Dark Theme
 
 
 <details>
-    <summary>Gif of QA Section (forms, animations)</summary>
+    <summary>See Q&A Forms</summary>
+
+![fec-qa-forms-readme](./client/dist/images/QAmodal.png)
 ![fec-qa-forms-readme](./client/dist/images/QA.gif)
 
 </details>
