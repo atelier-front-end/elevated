@@ -58,13 +58,24 @@ Simplistic yet modern e-commerce site designed with the user in mind.
 
 </details>
 
-## Questions & Answers
+## Questions & Answers (Author: Evan O'Shea)
 
 #### Features
 
-- Search functionality to filter questions by title
-- Question and Answers lists with Load More functionality
-- Question and Answer modals for adding to the list
+##### Questions:
+* Utilized React's _onChange_ to create a **real-time responsive Search Bar** as text is typed into field
+* _Load More_ functionality implemented to provide good UX with more control over visible page content
+* Jquery Animation implemented so user can detect loaded content in overflow-scroll Div (scrolls to bottom)
+* Displays meta data of each question
+
+##### Answers:
+* Utilized browser's localStorage to limit user's reported/helpful response to each Q&A
+* Load more functionality for good UX and user control of page content
+* * Displays meta data of each answer
+
+##### Modal & Posting Qs/As:
+* Modal Form to Post Question or Answer to API
+* Answers accept images, which display in uniform size under each entry upon page load
 
 ![fec-qa-readme](./client/dist/images/QALight.png)
 ![fec-qa-readme](./client/dist/images/QAdark.png)
